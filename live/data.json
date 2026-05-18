@@ -1,7 +1,7 @@
 {
   "metadata": {
     "schema_version": "1.0.0",
-    "generated_at": "2026-05-17T16:00:00Z",
+    "generated_at": "2026-05-18T01:24:59.114-04:00",
     "location": {
       "name": "Cowaramup",
       "postcode": "6284",
@@ -14,104 +14,100 @@
       "type": "kv_metrics",
       "title": "Today's Weather",
       "status": "normal",
-      "summary": "Partly cloudy with patchy morning fog. Slight chance of a shower in the southwest. Light winds with daytime maximum around 20°C.",
+      "summary": "Mostly sunny with partly cloudy conditions. Slight chance of shower in southwest. Light winds expected.",
       "metrics": [
-        {
-          "label": "Condition",
-          "value": "Partly cloudy"
-        },
         {
           "label": "Max Temperature",
           "value": "20°C"
         },
         {
-          "label": "Min Temperature",
-          "value": "11°C"
+          "label": "Overnight Min",
+          "value": "8°C"
         },
         {
           "label": "Rain Chance",
           "value": "20%"
         },
         {
-          "label": "Rain Probability Category",
-          "value": "High chance of no rain"
+          "label": "Rain Amount",
+          "value": "0 mm"
         },
         {
           "label": "UV Category",
-          "value": "Moderate"
+          "value": "Moderate (Index 3)"
         },
         {
-          "label": "UV Index",
-          "value": "3"
+          "label": "UV Active Period",
+          "value": "03:00 - 05:30 UTC"
         },
         {
           "label": "Sunrise",
-          "value": "23:07 (UTC)"
+          "value": "23:07 UTC (2026-05-17)"
         },
         {
           "label": "Sunset",
-          "value": "09:27 (UTC)"
+          "value": "09:26 UTC (2026-05-18)"
         }
       ],
       "bullet_points": []
     },
     {
-      "module_id": "fire_danger_daily",
+      "module_id": "fire_danger_status",
       "type": "alert_status",
       "title": "Fire Danger & Firepit Safety",
       "status": "info",
-      "summary": "Fire danger is Moderate today. Campfires and firepits are ALLOWED, but strict safety requirements apply. You are currently within the Restricted Burning Period (Autumn: 15 March – 12 May). A Permit to Burn is required if you intend to burn.",
+      "summary": "Fire danger rated Moderate. Campfires and solid fuel BBQs/pizza ovens ARE permitted today, subject to mandatory safety requirements.",
       "metrics": [
         {
-          "label": "Today's Fire Danger Rating",
+          "label": "Current Fire Danger",
           "value": "Moderate"
         },
         {
-          "label": "Campfires & Firepits Allowed",
+          "label": "Campfires/Firepits Allowed",
           "value": "Yes"
         },
         {
-          "label": "Solid Fuel BBQ & Pizza Ovens Allowed",
+          "label": "Solid Fuel BBQ/Pizza Ovens",
           "value": "Yes"
         },
         {
-          "label": "Current Burning Period",
-          "value": "Restricted (Autumn)"
-        },
-        {
-          "label": "Permit Required",
-          "value": "Yes"
+          "label": "Burning Period Status",
+          "value": "Restricted Burning Period (Autumn) - Ends Midnight Sunday 3 May 2026"
         }
       ],
       "bullet_points": [
         "3-meter clearance of all flammable material required",
         "Adult must be in attendance at all times",
         "Reliable water supply must be on hand",
-        "Must be extinguished before leaving",
-        "Contact Fire Control Officer or Shire Rangers before lighting to confirm current conditions"
+        "Fire must be extinguished before leaving",
+        "Permit to Burn required during Restricted Burning periods - contact your Fire Control Officer"
       ]
     },
     {
       "module_id": "waste_collection",
       "type": "banner",
-      "title": "This Week's Bin Collection",
+      "title": "Bin Collection Schedule",
       "status": "normal",
-      "summary": "Green FOGO (organic waste) goes out every week. Check below for your alternating fortnightly bin.",
+      "summary": "Week of 2026-05-18: FOGO (Green) and Recyclables (Yellow) bins to be collected.",
       "metrics": [
         {
           "label": "Weekly (Every Week)",
           "value": "FOGO (Green)"
         },
         {
-          "label": "Alternating Fortnightly",
-          "value": "Unable to determine—no current execution date provided"
+          "label": "This Week",
+          "value": "Recyclables (Yellow)"
+        },
+        {
+          "label": "Schedule Period",
+          "value": "2025-2026"
         }
       ],
       "bullet_points": [
-        "Green FOGO bin: Always goes out",
-        "Yellow Recyclables and Red Landfill bins alternate weekly",
-        "Anchor reference week: 30 June 2025 (Recyclables week)",
-        "To determine this week's alternating bin, calculate weeks elapsed since anchor date and apply even/odd rule"
+        "Green FOGO bin goes out this week",
+        "Yellow Recyclables bin goes out this week",
+        "Red Landfill bin does not go out this week",
+        "Next Red Landfill collection: following week"
       ]
     }
   ]
