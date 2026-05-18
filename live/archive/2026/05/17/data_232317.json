@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "schema_version": "1.0.0",
+    "generated_at": "2026-05-17T16:00:00Z",
+    "location": {
+      "name": "Cowaramup",
+      "postcode": "6284",
+      "region": "Shire of Augusta Margaret River"
+    }
+  },
+  "modules": [
+    {
+      "module_id": "weather_daily",
+      "type": "kv_metrics",
+      "title": "Today's Weather",
+      "status": "normal",
+      "summary": "Partly cloudy with patchy morning fog. Light winds and warm daytime conditions expected.",
+      "metrics": [
+        {
+          "label": "Max Temperature",
+          "value": "20°C"
+        },
+        {
+          "label": "Min Temperature",
+          "value": "11°C"
+        },
+        {
+          "label": "Overnight Low",
+          "value": "8°C"
+        },
+        {
+          "label": "Rainfall Chance",
+          "value": "20%"
+        },
+        {
+          "label": "Expected Rainfall",
+          "value": "0 mm"
+        },
+        {
+          "label": "Sunrise",
+          "value": "23:07 (UTC)"
+        },
+        {
+          "label": "Sunset",
+          "value": "09:27 (UTC)"
+        },
+        {
+          "label": "UV Category",
+          "value": "Moderate (Index 3)"
+        },
+        {
+          "label": "Conditions",
+          "value": "Mostly sunny"
+        }
+      ],
+      "bullet_points": [
+        "Slight chance of a shower in the southwest, near zero chance elsewhere"
+      ]
+    },
+    {
+      "module_id": "fire_danger",
+      "type": "alert_status",
+      "title": "Fire Danger & Burning Status",
+      "status": "info",
+      "summary": "Fire danger is MODERATE today. Campfires and solid fuel BBQs are ALLOWED with mandatory safety requirements. Restricted Burning Period (Autumn) ends midnight Sunday 3 May 2026.",
+      "metrics": [
+        {
+          "label": "Current Fire Danger",
+          "value": "Moderate"
+        },
+        {
+          "label": "Campfires & Firepits",
+          "value": "Allowed"
+        },
+        {
+          "label": "Solid Fuel BBQ/Pizza Ovens",
+          "value": "Allowed"
+        },
+        {
+          "label": "Burning Period Status",
+          "value": "Restricted (Autumn) - Permit Required"
+        }
+      ],
+      "bullet_points": [
+        "3-meter clearance of all flammable material required",
+        "Adult in attendance at all times",
+        "Reliable water supply must be on hand",
+        "Must be extinguished before leaving",
+        "A Permit to Burn is required during Restricted Burning periods",
+        "Contact your Fire Control Officer or Shire Rangers before lighting up"
+      ]
+    },
+    {
+      "module_id": "waste_collection",
+      "type": "alert_status",
+      "title": "Waste Collection Schedule",
+      "status": "normal",
+      "summary": "Weekly green waste (FOGO) collection continues. Determine fortnightly bin type using anchor date logic.",
+      "metrics": [
+        {
+          "label": "Weekly Constant",
+          "value": "FOGO (Green) - Always"
+        },
+        {
+          "label": "Anchor Reference Date",
+          "value": "2025-06-30 (Recyclables week)"
+        },
+        {
+          "label": "Calculation Method",
+          "value": "Count weeks from anchor; even = Recyclables (Yellow), odd = Landfill (Red)"
+        }
+      ],
+      "bullet_points": [
+        "FOGO (Green) bin goes out every week",
+        "Calculate weeks elapsed since 2025-06-30 to determine current fortnightly bin",
+        "If weeks elapsed is even number: put out Recyclables (Yellow)",
+        "If weeks elapsed is odd number: put out Landfill (Red)",
+        "Contact Shire of Augusta Margaret River for specific week confirmation"
+      ]
+    }
+  ]
+}
