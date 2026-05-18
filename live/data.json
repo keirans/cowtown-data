@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "schema_version": "1.0.0",
+    "generated_at": "2026-05-17T16:00:00Z",
+    "location": {
+      "name": "Cowaramup",
+      "postcode": "6284",
+      "region": "Shire of Augusta Margaret River"
+    }
+  },
+  "modules": [
+    {
+      "module_id": "weather_daily",
+      "type": "kv_metrics",
+      "title": "Today's Weather",
+      "status": "normal",
+      "summary": "Partly cloudy with patchy morning fog. Light winds. Slight chance of a shower in the southwest, near zero chance elsewhere. Daytime maximum around 20°C.",
+      "metrics": [
+        {
+          "label": "Current Temperature",
+          "value": "20°C"
+        },
+        {
+          "label": "Max Temperature",
+          "value": "20°C"
+        },
+        {
+          "label": "Min Temperature",
+          "value": "11°C"
+        },
+        {
+          "label": "Overnight Min",
+          "value": "8°C"
+        },
+        {
+          "label": "Rain Chance",
+          "value": "20%"
+        },
+        {
+          "label": "Expected Rainfall",
+          "value": "0 mm"
+        },
+        {
+          "label": "UV Category",
+          "value": "Moderate (Index 3)"
+        },
+        {
+          "label": "Sunrise",
+          "value": "23:07"
+        },
+        {
+          "label": "Sunset",
+          "value": "09:27"
+        }
+      ],
+      "bullet_points": []
+    },
+    {
+      "module_id": "fire_danger_today",
+      "type": "alert_status",
+      "title": "Fire Danger & Firepit Safety",
+      "status": "info",
+      "summary": "Fire danger is Moderate. Firepits and campfires are permitted today with mandatory safety precautions. Currently within the Restricted Burning Period (Autumn) which ends 3 May 2026; a Permit to Burn is required for any burning activities.",
+      "metrics": [
+        {
+          "label": "Fire Danger Rating",
+          "value": "Moderate"
+        },
+        {
+          "label": "Firepits Allowed",
+          "value": "Yes"
+        },
+        {
+          "label": "Solid Fuel BBQ/Pizza Ovens Allowed",
+          "value": "Yes"
+        },
+        {
+          "label": "Current Burning Period",
+          "value": "Restricted (Autumn) - ends 3 May 2026"
+        }
+      ],
+      "bullet_points": [
+        "3-meter clearance of all flammable material required",
+        "Adult must be in attendance at all times",
+        "Reliable water supply must be on hand",
+        "Must be extinguished before leaving",
+        "Permit to Burn required during Restricted Burning Period"
+      ]
+    },
+    {
+      "module_id": "bin_collection_schedule",
+      "type": "alert_status",
+      "title": "Waste Collection Schedule",
+      "status": "normal",
+      "summary": "Weekly FOGO (Green) bin collection applies every week. Fortnightly alternation between Recyclables (Yellow) and Landfill (Red) bins based on anchor date 30 June 2025.",
+      "metrics": [
+        {
+          "label": "Weekly Collection",
+          "value": "FOGO (Green)"
+        },
+        {
+          "label": "Fortnightly Rotation",
+          "value": "Recyclables (Yellow) / Landfill (Red)"
+        },
+        {
+          "label": "Anchor Reference Date",
+          "value": "30 June 2025 (Recyclables week)"
+        },
+        {
+          "label": "Period",
+          "value": "2025-2026"
+        }
+      ],
+      "bullet_points": [
+        "FOGO (Green) bin: out every week",
+        "Recyclables (Yellow) and Landfill (Red) bins: alternate weekly",
+        "Calculation: If weeks elapsed since 30 June 2025 is even, it is a Recyclables week; if odd, it is a Landfill week"
+      ]
+    }
+  ]
+}
