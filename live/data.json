@@ -1,7 +1,7 @@
 {
   "metadata": {
     "schema_version": "1.0.0",
-    "generated_at": "2026-05-18T06:05:15.704-04:00",
+    "generated_at": "2026-05-18T06:28:21.347-04:00",
     "location": {
       "name": "Cowaramup",
       "postcode": "6284",
@@ -14,7 +14,7 @@
       "type": "kv_metrics",
       "title": "Today's Weather",
       "status": "normal",
-      "summary": "Mostly sunny conditions with light winds expected. Overnight minimum of 8°C, warming to 20°C tomorrow. Low rainfall chance at 20% with no significant precipitation expected.",
+      "summary": "Mostly sunny conditions with light winds expected. Overnight minimum of 8°C, tomorrow's maximum 20°C. Low rainfall chance at 20%.",
       "metrics": [
         {
           "label": "Max Temperature",
@@ -42,11 +42,11 @@
         },
         {
           "label": "Sunrise",
-          "value": "23:07 UTC (2026-05-17)"
+          "value": "23:07 UTC (17 May)"
         },
         {
           "label": "Sunset",
-          "value": "09:26 UTC (2026-05-18)"
+          "value": "09:27 UTC (18 May)"
         }
       ],
       "bullet_points": []
@@ -55,7 +55,7 @@
       "module_id": "fire_management",
       "type": "alert_status",
       "title": "Fire Danger & Safety",
-      "status": "info",
+      "status": "normal",
       "summary": "Open Burning Period (Unrestricted) is currently active. A Permit to Burn is no longer required prior to lighting a fire in the open air. Please always take care and verify local conditions.",
       "metrics": [
         {
@@ -64,11 +64,11 @@
         },
         {
           "label": "Firepits/Campfires",
-          "value": "Permitted (Unrestricted)"
+          "value": "Allowed without permit"
         },
         {
           "label": "Solid Fuel BBQs",
-          "value": "Permitted (Unrestricted)"
+          "value": "Allowed without permit"
         }
       ],
       "bullet_points": [
@@ -82,7 +82,7 @@
       "type": "alert_status",
       "title": "Bin Collection Schedule",
       "status": "normal",
-      "summary": "This week's collection is Recyclables (Yellow bin). Next week's scheduled collection is Landfill (Red bin).",
+      "summary": "This week: Recyclables (Yellow bin). Next week: Landfill (Red bin).",
       "metrics": [
         {
           "label": "Weekly Collection",
