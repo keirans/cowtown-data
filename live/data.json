@@ -14,12 +14,8 @@
       "type": "kv_metrics",
       "title": "Today's Weather",
       "status": "normal",
-      "summary": "Partly cloudy with patchy morning fog. Light winds. Slight chance of a shower in the southwest, near zero chance elsewhere. Daytime maximum around 20°C.",
+      "summary": "Partly cloudy with patchy morning fog. Light winds and warm daytime conditions expected.",
       "metrics": [
-        {
-          "label": "Current Temperature",
-          "value": "20°C"
-        },
         {
           "label": "Max Temperature",
           "value": "20°C"
@@ -29,11 +25,11 @@
           "value": "11°C"
         },
         {
-          "label": "Overnight Min",
+          "label": "Overnight Low",
           "value": "8°C"
         },
         {
-          "label": "Rain Chance",
+          "label": "Rainfall Chance",
           "value": "20%"
         },
         {
@@ -41,80 +37,85 @@
           "value": "0 mm"
         },
         {
+          "label": "Sunrise",
+          "value": "23:07 (UTC)"
+        },
+        {
+          "label": "Sunset",
+          "value": "09:27 (UTC)"
+        },
+        {
           "label": "UV Category",
           "value": "Moderate (Index 3)"
         },
         {
-          "label": "Sunrise",
-          "value": "23:07"
-        },
-        {
-          "label": "Sunset",
-          "value": "09:27"
+          "label": "Conditions",
+          "value": "Mostly sunny"
         }
       ],
-      "bullet_points": []
+      "bullet_points": [
+        "Slight chance of a shower in the southwest, near zero chance elsewhere"
+      ]
     },
     {
-      "module_id": "fire_danger_today",
+      "module_id": "fire_danger",
       "type": "alert_status",
-      "title": "Fire Danger & Firepit Safety",
+      "title": "Fire Danger & Burning Status",
       "status": "info",
-      "summary": "Fire danger is Moderate. Firepits and campfires are permitted today with mandatory safety precautions. Currently within the Restricted Burning Period (Autumn) which ends 3 May 2026; a Permit to Burn is required for any burning activities.",
+      "summary": "Fire danger is MODERATE today. Campfires and solid fuel BBQs are ALLOWED with mandatory safety requirements. Restricted Burning Period (Autumn) ends midnight Sunday 3 May 2026.",
       "metrics": [
         {
-          "label": "Fire Danger Rating",
+          "label": "Current Fire Danger",
           "value": "Moderate"
         },
         {
-          "label": "Firepits Allowed",
-          "value": "Yes"
+          "label": "Campfires & Firepits",
+          "value": "Allowed"
         },
         {
-          "label": "Solid Fuel BBQ/Pizza Ovens Allowed",
-          "value": "Yes"
+          "label": "Solid Fuel BBQ/Pizza Ovens",
+          "value": "Allowed"
         },
         {
-          "label": "Current Burning Period",
-          "value": "Restricted (Autumn) - ends 3 May 2026"
+          "label": "Burning Period Status",
+          "value": "Restricted (Autumn) - Permit Required"
         }
       ],
       "bullet_points": [
         "3-meter clearance of all flammable material required",
-        "Adult must be in attendance at all times",
+        "Adult in attendance at all times",
         "Reliable water supply must be on hand",
         "Must be extinguished before leaving",
-        "Permit to Burn required during Restricted Burning Period"
+        "A Permit to Burn is required during Restricted Burning periods",
+        "Contact your Fire Control Officer or Shire Rangers before lighting up"
       ]
     },
     {
-      "module_id": "bin_collection_schedule",
+      "module_id": "waste_collection",
       "type": "alert_status",
       "title": "Waste Collection Schedule",
       "status": "normal",
-      "summary": "Weekly FOGO (Green) bin collection applies every week. Fortnightly alternation between Recyclables (Yellow) and Landfill (Red) bins based on anchor date 30 June 2025.",
+      "summary": "Weekly green waste (FOGO) collection continues. Determine fortnightly bin type using anchor date logic.",
       "metrics": [
         {
-          "label": "Weekly Collection",
-          "value": "FOGO (Green)"
-        },
-        {
-          "label": "Fortnightly Rotation",
-          "value": "Recyclables (Yellow) / Landfill (Red)"
+          "label": "Weekly Constant",
+          "value": "FOGO (Green) - Always"
         },
         {
           "label": "Anchor Reference Date",
-          "value": "30 June 2025 (Recyclables week)"
+          "value": "2025-06-30 (Recyclables week)"
         },
         {
-          "label": "Period",
-          "value": "2025-2026"
+          "label": "Calculation Method",
+          "value": "Count weeks from anchor; even = Recyclables (Yellow), odd = Landfill (Red)"
         }
       ],
       "bullet_points": [
-        "FOGO (Green) bin: out every week",
-        "Recyclables (Yellow) and Landfill (Red) bins: alternate weekly",
-        "Calculation: If weeks elapsed since 30 June 2025 is even, it is a Recyclables week; if odd, it is a Landfill week"
+        "FOGO (Green) bin goes out every week",
+        "Calculate weeks elapsed since 2025-06-30 to determine current fortnightly bin",
+        "If weeks elapsed is even number: put out Recyclables (Yellow)",
+        "If weeks elapsed is odd number: put out Landfill (Red)",
+        "Contact Shire of Augusta Margaret River for specific week confirmation"
       ]
     }
   ]
