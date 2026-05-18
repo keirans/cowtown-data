@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "schema_version": "1.0.0",
+    "generated_at": "2026-05-18T05:21:37.395-04:00",
+    "location": {
+      "name": "Cowaramup",
+      "postcode": "6284"
+    }
+  },
+  "live_state": {
+    "is_even_week": true,
+    "current_burning_period": "Open Burning Period (Unrestricted)",
+    "permit_required": false,
+    "fire_danger_rating": "Not Specified",
+    "total_fire_ban_active": false
+  },
+  "modules": [
+    {
+      "module_id": "weather_daily",
+      "type": "kv_metrics",
+      "title": "Today's Weather",
+      "status": "normal",
+      "badge": "Mostly Sunny",
+      "icon": "sun-partial-cloud",
+      "summary": "Partly cloudy with light winds. Maximum temperature 20°C, overnight minimum 8°C. Low rainfall chance at 20%.",
+      "display_data": {
+        "primary_focus": "20°C",
+        "accent_color": "amber",
+        "secondary_focus": "8°C overnight",
+        "next_week_focus": "Partly cloudy",
+        "headline_metric": "Max Temperature",
+        "campfires_allowed": "Yes",
+        "solid_fuel_bbq_allowed": "Yes"
+      },
+      "bullet_points": [
+        "Max Temperature: 20°C",
+        "Overnight Min: 8°C",
+        "Rainfall Chance: 20%",
+        "Expected Rainfall: 0 mm",
+        "UV Category: Moderate"
+      ]
+    },
+    {
+      "module_id": "fire_management",
+      "type": "alert_status",
+      "title": "Fire Danger & Safety",
+      "status": "normal",
+      "badge": "Open Burning",
+      "icon": "flame-check",
+      "summary": "Open Burning Period is unrestricted. No permit required. Always verify local conditions and ensure proper supervision and equipment.",
+      "display_data": {
+        "primary_focus": "Open Burning Period (Unrestricted)",
+        "accent_color": "green",
+        "secondary_focus": "Permit not required",
+        "next_week_focus": "Check local conditions daily",
+        "headline_metric": "No permit needed",
+        "campfires_allowed": "Yes",
+        "solid_fuel_bbq_allowed": "Yes"
+      },
+      "bullet_points": [
+        "No permit required for open-air fires today",
+        "Always verify local wind and daily weather conditions before ignition",
+        "Ensure an adult is present and extinguishing equipment is handy"
+      ]
+    },
+    {
+      "module_id": "waste_collection",
+      "type": "alert_status",
+      "title": "Bin Collection Schedule",
+      "status": "normal",
+      "badge": "Recyclables This Week",
+      "icon": "trash-yellow",
+      "summary": "This week: Yellow bin (Recyclables). Next week: Red bin (Landfill).",
+      "display_data": {
+        "primary_focus": "Recyclables",
+        "accent_color": "yellow",
+        "secondary_focus": "Yellow Bin",
+        "next_week_focus": "Red Bin (Landfill)",
+        "headline_metric": "Weekly Collection",
+        "campfires_allowed": "N/A",
+        "solid_fuel_bbq_allowed": "N/A"
+      },
+      "bullet_points": [
+        "Weekly Collection: Recyclables (Yellow Bin)",
+        "Fortnightly Collection: Landfill (Red Bin)",
+        "Next Week's Bin: Landfill (Red)"
+      ]
+    }
+  ]
+}
