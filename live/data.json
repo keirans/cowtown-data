@@ -1,7 +1,7 @@
 {
   "metadata": {
     "schema_version": "1.0.0",
-    "generated_at": "2026-05-18T01:24:59.114-04:00",
+    "generated_at": "2026-05-18T02:48:03.142-04:00",
     "location": {
       "name": "Cowaramup",
       "postcode": "6284",
@@ -14,7 +14,7 @@
       "type": "kv_metrics",
       "title": "Today's Weather",
       "status": "normal",
-      "summary": "Mostly sunny with partly cloudy conditions. Slight chance of shower in southwest. Light winds expected.",
+      "summary": "Partly cloudy with mostly sunny conditions. Light winds expected throughout the day.",
       "metrics": [
         {
           "label": "Max Temperature",
@@ -25,11 +25,11 @@
           "value": "8°C"
         },
         {
-          "label": "Rain Chance",
+          "label": "Rainfall Chance",
           "value": "20%"
         },
         {
-          "label": "Rain Amount",
+          "label": "Expected Rainfall",
           "value": "0 mm"
         },
         {
@@ -37,77 +37,81 @@
           "value": "Moderate (Index 3)"
         },
         {
-          "label": "UV Active Period",
-          "value": "03:00 - 05:30 UTC"
-        },
-        {
           "label": "Sunrise",
-          "value": "23:07 UTC (2026-05-17)"
+          "value": "23:07 (17 May)"
         },
         {
           "label": "Sunset",
-          "value": "09:26 UTC (2026-05-18)"
+          "value": "09:27 (18 May)"
         }
       ],
       "bullet_points": []
     },
     {
-      "module_id": "fire_danger_status",
+      "module_id": "fire_danger_rating",
       "type": "alert_status",
-      "title": "Fire Danger & Firepit Safety",
+      "title": "Fire Danger Rating",
       "status": "info",
-      "summary": "Fire danger rated Moderate. Campfires and solid fuel BBQs/pizza ovens ARE permitted today, subject to mandatory safety requirements.",
+      "summary": "Moderate fire danger today. Campfires and solid-fuel BBQs are permitted with mandatory safety requirements.",
       "metrics": [
         {
-          "label": "Current Fire Danger",
+          "label": "Today's Rating",
           "value": "Moderate"
         },
         {
-          "label": "Campfires/Firepits Allowed",
+          "label": "Campfires Allowed",
           "value": "Yes"
         },
         {
-          "label": "Solid Fuel BBQ/Pizza Ovens",
+          "label": "Solid Fuel BBQs Allowed",
           "value": "Yes"
-        },
-        {
-          "label": "Burning Period Status",
-          "value": "Restricted Burning Period (Autumn) - Ends Midnight Sunday 3 May 2026"
         }
       ],
       "bullet_points": [
         "3-meter clearance of all flammable material required",
         "Adult must be in attendance at all times",
         "Reliable water supply must be on hand",
-        "Fire must be extinguished before leaving",
-        "Permit to Burn required during Restricted Burning periods - contact your Fire Control Officer"
+        "Must be extinguished before leaving"
+      ]
+    },
+    {
+      "module_id": "burning_period_status",
+      "type": "banner",
+      "title": "Current Burning Period",
+      "status": "warning",
+      "summary": "Restricted Burning Period (Autumn) for the Shire of Augusta Margaret River ends at midnight on Sunday 3 May 2026. A Permit to Burn is required during this period.",
+      "metrics": [],
+      "bullet_points": [
+        "Current period ends: Sunday 3 May 2026 at midnight",
+        "Permit to Burn required for restricted burning periods",
+        "Contact your local Fire Control Officer (FCO) or Shire Rangers before lighting up",
+        "Dates subject to change due to variable weather conditions"
       ]
     },
     {
       "module_id": "waste_collection",
-      "type": "banner",
+      "type": "alert_status",
       "title": "Bin Collection Schedule",
       "status": "normal",
-      "summary": "Week of 2026-05-18: FOGO (Green) and Recyclables (Yellow) bins to be collected.",
+      "summary": "Week of 18 May 2026: Green (FOGO) and Landfill (Red) bins are due for collection.",
       "metrics": [
         {
-          "label": "Weekly (Every Week)",
+          "label": "Constant Weekly",
           "value": "FOGO (Green)"
         },
         {
-          "label": "This Week",
-          "value": "Recyclables (Yellow)"
+          "label": "This Week's Alternating Bin",
+          "value": "Landfill (Red)"
         },
         {
-          "label": "Schedule Period",
-          "value": "2025-2026"
+          "label": "Collection Region",
+          "value": "Shire of Augusta Margaret River"
         }
       ],
       "bullet_points": [
-        "Green FOGO bin goes out this week",
-        "Yellow Recyclables bin goes out this week",
-        "Red Landfill bin does not go out this week",
-        "Next Red Landfill collection: following week"
+        "Green (FOGO) bin: Out every week",
+        "Red (Landfill) bin: Out this week (odd week from 30 June 2025 anchor)",
+        "Yellow (Recyclables) bin: Out next week"
       ]
     }
   ]
