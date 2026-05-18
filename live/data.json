@@ -1,11 +1,11 @@
 {
   "metadata": {
     "schema_version": "1.0.0",
-    "generated_at": "2026-05-18T05:54:59.596-04:00",
+    "generated_at": "2026-05-18T06:05:15.704-04:00",
     "location": {
       "name": "Cowaramup",
       "postcode": "6284",
-      "region": "Western Australia"
+      "region": "Shire of Augusta Margaret River"
     }
   },
   "modules": [
@@ -14,7 +14,7 @@
       "type": "kv_metrics",
       "title": "Today's Weather",
       "status": "normal",
-      "summary": "Partly cloudy with mostly sunny conditions expected. Light winds throughout the day with a maximum temperature of 20°C and an overnight minimum of 8°C. Low rainfall chance at 20% with minimal precipitation expected.",
+      "summary": "Mostly sunny conditions with light winds expected. Overnight minimum of 8°C, warming to 20°C tomorrow. Low rainfall chance at 20% with no significant precipitation expected.",
       "metrics": [
         {
           "label": "Max Temperature",
@@ -34,7 +34,19 @@
         },
         {
           "label": "UV Category",
-          "value": "Moderate (Index 3)"
+          "value": "Moderate"
+        },
+        {
+          "label": "UV Active Period",
+          "value": "03:00–05:30 UTC"
+        },
+        {
+          "label": "Sunrise",
+          "value": "23:07 UTC (2026-05-17)"
+        },
+        {
+          "label": "Sunset",
+          "value": "09:26 UTC (2026-05-18)"
         }
       ],
       "bullet_points": []
@@ -43,20 +55,20 @@
       "module_id": "fire_management",
       "type": "alert_status",
       "title": "Fire Danger & Safety",
-      "status": "normal",
-      "summary": "A Permit to Burn is no longer required prior to lighting a fire in the open air. We are currently in the Open Burning Period (Unrestricted). Please always take care and verify local wind and daily weather conditions before ignition.",
+      "status": "info",
+      "summary": "Open Burning Period (Unrestricted) is currently active. A Permit to Burn is no longer required prior to lighting a fire in the open air. Please always take care and verify local conditions.",
       "metrics": [
         {
           "label": "Fire Danger Rating",
-          "value": "Open Burning Period (Unrestricted)"
+          "value": "Not specified"
         },
         {
           "label": "Firepits/Campfires",
-          "value": "Permitted"
+          "value": "Permitted (Unrestricted)"
         },
         {
           "label": "Solid Fuel BBQs",
-          "value": "Permitted"
+          "value": "Permitted (Unrestricted)"
         }
       ],
       "bullet_points": [
@@ -70,7 +82,7 @@
       "type": "alert_status",
       "title": "Bin Collection Schedule",
       "status": "normal",
-      "summary": "This week's collection is Recyclables (Yellow bin). Next week's scheduled collection will be Landfill (Red bin).",
+      "summary": "This week's collection is Recyclables (Yellow bin). Next week's scheduled collection is Landfill (Red bin).",
       "metrics": [
         {
           "label": "Weekly Collection",
