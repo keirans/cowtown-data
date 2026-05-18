@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "schema_version": "1.0.0",
+    "generated_at": "2026-05-18T01:24:59.114-04:00",
+    "location": {
+      "name": "Cowaramup",
+      "postcode": "6284",
+      "region": "Shire of Augusta Margaret River"
+    }
+  },
+  "modules": [
+    {
+      "module_id": "weather_daily",
+      "type": "kv_metrics",
+      "title": "Today's Weather",
+      "status": "normal",
+      "summary": "Mostly sunny with partly cloudy conditions. Slight chance of shower in southwest. Light winds expected.",
+      "metrics": [
+        {
+          "label": "Max Temperature",
+          "value": "20°C"
+        },
+        {
+          "label": "Overnight Min",
+          "value": "8°C"
+        },
+        {
+          "label": "Rain Chance",
+          "value": "20%"
+        },
+        {
+          "label": "Rain Amount",
+          "value": "0 mm"
+        },
+        {
+          "label": "UV Category",
+          "value": "Moderate (Index 3)"
+        },
+        {
+          "label": "UV Active Period",
+          "value": "03:00 - 05:30 UTC"
+        },
+        {
+          "label": "Sunrise",
+          "value": "23:07 UTC (2026-05-17)"
+        },
+        {
+          "label": "Sunset",
+          "value": "09:26 UTC (2026-05-18)"
+        }
+      ],
+      "bullet_points": []
+    },
+    {
+      "module_id": "fire_danger_status",
+      "type": "alert_status",
+      "title": "Fire Danger & Firepit Safety",
+      "status": "info",
+      "summary": "Fire danger rated Moderate. Campfires and solid fuel BBQs/pizza ovens ARE permitted today, subject to mandatory safety requirements.",
+      "metrics": [
+        {
+          "label": "Current Fire Danger",
+          "value": "Moderate"
+        },
+        {
+          "label": "Campfires/Firepits Allowed",
+          "value": "Yes"
+        },
+        {
+          "label": "Solid Fuel BBQ/Pizza Ovens",
+          "value": "Yes"
+        },
+        {
+          "label": "Burning Period Status",
+          "value": "Restricted Burning Period (Autumn) - Ends Midnight Sunday 3 May 2026"
+        }
+      ],
+      "bullet_points": [
+        "3-meter clearance of all flammable material required",
+        "Adult must be in attendance at all times",
+        "Reliable water supply must be on hand",
+        "Fire must be extinguished before leaving",
+        "Permit to Burn required during Restricted Burning periods - contact your Fire Control Officer"
+      ]
+    },
+    {
+      "module_id": "waste_collection",
+      "type": "banner",
+      "title": "Bin Collection Schedule",
+      "status": "normal",
+      "summary": "Week of 2026-05-18: FOGO (Green) and Recyclables (Yellow) bins to be collected.",
+      "metrics": [
+        {
+          "label": "Weekly (Every Week)",
+          "value": "FOGO (Green)"
+        },
+        {
+          "label": "This Week",
+          "value": "Recyclables (Yellow)"
+        },
+        {
+          "label": "Schedule Period",
+          "value": "2025-2026"
+        }
+      ],
+      "bullet_points": [
+        "Green FOGO bin goes out this week",
+        "Yellow Recyclables bin goes out this week",
+        "Red Landfill bin does not go out this week",
+        "Next Red Landfill collection: following week"
+      ]
+    }
+  ]
+}
