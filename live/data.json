@@ -1,7 +1,7 @@
 {
   "metadata": {
     "schema_version": "1.0.0",
-    "generated_at": "2026-05-18T06:28:21.347-04:00",
+    "generated_at": "2026-05-18T07:44:09.744-04:00",
     "location": {
       "name": "Cowaramup",
       "postcode": "6284",
@@ -14,7 +14,7 @@
       "type": "kv_metrics",
       "title": "Today's Weather",
       "status": "normal",
-      "summary": "Mostly sunny conditions with light winds expected. Overnight minimum of 8°C, tomorrow's maximum 20°C. Low rainfall chance at 20%.",
+      "summary": "Clear conditions expected with a maximum temperature of 20°C. Light winds throughout the day. Low chance of rainfall at 20%.",
       "metrics": [
         {
           "label": "Max Temperature",
@@ -33,20 +33,12 @@
           "value": "0 mm"
         },
         {
-          "label": "UV Category",
-          "value": "Moderate"
-        },
-        {
-          "label": "UV Active Period",
-          "value": "03:00–05:30 UTC"
-        },
-        {
           "label": "Sunrise",
-          "value": "23:07 UTC (17 May)"
+          "value": "23:07"
         },
         {
           "label": "Sunset",
-          "value": "09:27 UTC (18 May)"
+          "value": "09:27"
         }
       ],
       "bullet_points": []
@@ -56,19 +48,11 @@
       "type": "alert_status",
       "title": "Fire Danger & Safety",
       "status": "normal",
-      "summary": "Open Burning Period (Unrestricted) is currently active. A Permit to Burn is no longer required prior to lighting a fire in the open air. Please always take care and verify local conditions.",
+      "summary": "Open Burning Period (Unrestricted) is currently active. No permit required for open-air fires. Always verify local wind and weather conditions before lighting fires and ensure proper supervision and extinguishing equipment.",
       "metrics": [
         {
-          "label": "Fire Danger Rating",
-          "value": "Not specified"
-        },
-        {
           "label": "Firepits/Campfires",
-          "value": "Allowed without permit"
-        },
-        {
-          "label": "Solid Fuel BBQs",
-          "value": "Allowed without permit"
+          "value": "Permitted - No permit required"
         }
       ],
       "bullet_points": [
@@ -82,15 +66,11 @@
       "type": "alert_status",
       "title": "Bin Collection Schedule",
       "status": "normal",
-      "summary": "This week: Recyclables (Yellow bin). Next week: Landfill (Red bin).",
+      "summary": "This week's collection is Recyclables (Yellow bin). Next week's collection will be Landfill (Red bin).",
       "metrics": [
         {
           "label": "Weekly Collection",
           "value": "Recyclables (Yellow)"
-        },
-        {
-          "label": "Fortnightly Collection",
-          "value": "Not applicable"
         },
         {
           "label": "Next Week's Bin",
