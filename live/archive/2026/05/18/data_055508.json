@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "schema_version": "1.0.0",
+    "generated_at": "2026-05-18T05:54:59.596-04:00",
+    "location": {
+      "name": "Cowaramup",
+      "postcode": "6284",
+      "region": "Western Australia"
+    }
+  },
+  "modules": [
+    {
+      "module_id": "weather_daily",
+      "type": "kv_metrics",
+      "title": "Today's Weather",
+      "status": "normal",
+      "summary": "Partly cloudy with mostly sunny conditions expected. Light winds throughout the day with a maximum temperature of 20°C and an overnight minimum of 8°C. Low rainfall chance at 20% with minimal precipitation expected.",
+      "metrics": [
+        {
+          "label": "Max Temperature",
+          "value": "20°C"
+        },
+        {
+          "label": "Overnight Min",
+          "value": "8°C"
+        },
+        {
+          "label": "Rainfall Chance",
+          "value": "20%"
+        },
+        {
+          "label": "Expected Rainfall",
+          "value": "0 mm"
+        },
+        {
+          "label": "UV Category",
+          "value": "Moderate (Index 3)"
+        }
+      ],
+      "bullet_points": []
+    },
+    {
+      "module_id": "fire_management",
+      "type": "alert_status",
+      "title": "Fire Danger & Safety",
+      "status": "normal",
+      "summary": "A Permit to Burn is no longer required prior to lighting a fire in the open air. We are currently in the Open Burning Period (Unrestricted). Please always take care and verify local wind and daily weather conditions before ignition.",
+      "metrics": [
+        {
+          "label": "Fire Danger Rating",
+          "value": "Open Burning Period (Unrestricted)"
+        },
+        {
+          "label": "Firepits/Campfires",
+          "value": "Permitted"
+        },
+        {
+          "label": "Solid Fuel BBQs",
+          "value": "Permitted"
+        }
+      ],
+      "bullet_points": [
+        "No permit required for open-air fires today",
+        "Always verify local wind and daily weather conditions before ignition",
+        "Ensure an adult is present and extinguishing equipment is handy"
+      ]
+    },
+    {
+      "module_id": "waste_collection",
+      "type": "alert_status",
+      "title": "Bin Collection Schedule",
+      "status": "normal",
+      "summary": "This week's collection is Recyclables (Yellow bin). Next week's scheduled collection will be Landfill (Red bin).",
+      "metrics": [
+        {
+          "label": "Weekly Collection",
+          "value": "Recyclables (Yellow)"
+        },
+        {
+          "label": "Fortnightly Collection",
+          "value": "Not applicable"
+        },
+        {
+          "label": "Next Week's Bin",
+          "value": "Landfill (Red)"
+        }
+      ],
+      "bullet_points": []
+    }
+  ]
+}
