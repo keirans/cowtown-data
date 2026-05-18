@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "schema_version": "1.0",
-    "generated_at": "2026-05-18T02:56:37.497-04:00",
+    "schema_version": "1.0.0",
+    "generated_at": "2026-05-18T04:08:47.501-04:00",
     "location": {
       "name": "Cowaramup",
       "postcode": "6284",
-      "region": "Shire of Augusta Margaret River"
+      "region": "Western Australia"
     }
   },
   "modules": [
@@ -14,7 +14,7 @@
       "type": "kv_metrics",
       "title": "Today's Weather",
       "status": "normal",
-      "summary": "Mostly sunny with light winds. Maximum temperature of 20°C expected with overnight minimum of 8°C. Low rainfall chance at 20%.",
+      "summary": "Mostly sunny with light winds. Maximum temperature of 20°C expected, cooling to 8°C overnight. Low rainfall chance with moderate UV exposure.",
       "metrics": [
         {
           "label": "Max Temperature",
@@ -44,7 +44,7 @@
       "type": "alert_status",
       "title": "Fire Danger & Safety",
       "status": "normal",
-      "summary": "Fire danger rating is Moderate. The Restricted Burning Period (Autumn) has expired as of May 3, 2026. Campfires and solid fuel BBQs are permitted with safety requirements in place.",
+      "summary": "Open Burning Period (Unrestricted) is currently active. No permit required for open-air fires. Always verify local wind and weather conditions before ignition.",
       "metrics": [
         {
           "label": "Fire Danger Rating",
@@ -52,18 +52,17 @@
         },
         {
           "label": "Firepits/Campfires",
-          "value": "Allowed"
+          "value": "Allowed (No Permit Required)"
         },
         {
           "label": "Solid Fuel BBQs",
-          "value": "Allowed"
+          "value": "Allowed (No Permit Required)"
         }
       ],
       "bullet_points": [
-        "3-meter clearance of all flammable material required",
-        "Adult in attendance at all times",
-        "Reliable water supply on hand",
-        "Must be extinguished before leaving"
+        "No permit required for open-air fires today",
+        "Always verify local wind and daily weather conditions before ignition",
+        "Ensure an adult is present and extinguishing equipment is handy"
       ]
     },
     {
@@ -71,15 +70,15 @@
       "type": "alert_status",
       "title": "Bin Collection Schedule",
       "status": "normal",
-      "summary": "Weekly FOGO (Green) collection every week. Recyclables (Yellow) and Landfill (Red) bins alternate fortnightly. Next week is a Landfill (Red) bin collection week.",
+      "summary": "Recyclables (Yellow bin) collection this week. Landfill (Red bin) collection scheduled for next week.",
       "metrics": [
         {
           "label": "Weekly Collection",
-          "value": "FOGO (Green)"
+          "value": "Recyclables (Yellow)"
         },
         {
           "label": "Fortnightly Collection",
-          "value": "Recyclables & Landfill"
+          "value": "Not applicable"
         },
         {
           "label": "Next Week's Bin",
