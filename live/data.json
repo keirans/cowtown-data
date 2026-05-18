@@ -1,7 +1,7 @@
 {
   "metadata": {
     "schema_version": "1.0.0",
-    "generated_at": "2026-05-18T05:37:35.534-04:00",
+    "generated_at": "2026-05-18T05:44:12.103-04:00",
     "location": {
       "name": "Cowaramup",
       "postcode": "6284",
@@ -14,7 +14,7 @@
       "type": "kv_metrics",
       "title": "Today's Weather",
       "status": "normal",
-      "summary": "Mostly sunny conditions with light winds expected. Maximum temperature of 20°C with an overnight minimum of 8°C. Low chance of rainfall at 20% with negligible precipitation expected.",
+      "summary": "Partly cloudy conditions with mostly sunny skies expected. Maximum temperature of 20°C with light winds. Overnight minimum dropping to 8°C with low rainfall risk.",
       "metrics": [
         {
           "label": "Max Temperature",
@@ -44,11 +44,11 @@
       "type": "alert_status",
       "title": "Fire Danger & Safety",
       "status": "normal",
-      "summary": "Open Burning Period (Unrestricted) is currently in effect. No permit is required to light fires in the open air. Always exercise caution and verify local conditions before ignition.",
+      "summary": "Open Burning Period (Unrestricted) is currently in effect. No permit is required to light a fire in the open air. Always exercise caution and verify local conditions before ignition.",
       "metrics": [
         {
           "label": "Fire Danger Rating",
-          "value": "No restrictions"
+          "value": "No restriction"
         },
         {
           "label": "Firepits/Campfires",
@@ -70,7 +70,7 @@
       "type": "alert_status",
       "title": "Bin Collection Schedule",
       "status": "normal",
-      "summary": "Recyclables (Yellow bin) collection is scheduled for this week. Landfill (Red bin) collection will resume next week.",
+      "summary": "This week's collection is Recyclables (Yellow bin). Landfill (Red bin) collection is scheduled for next week.",
       "metrics": [
         {
           "label": "Weekly Collection",
@@ -78,7 +78,7 @@
         },
         {
           "label": "Fortnightly Collection",
-          "value": "Not this week"
+          "value": "Not applicable"
         },
         {
           "label": "Next Week's Bin",
