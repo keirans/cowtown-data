@@ -1,0 +1,33 @@
+```json
+{
+  "meta": {
+    "date": "2026-05-19",
+    "dateLabel": "Monday 19 May 2026",
+    "generatedAt": "08:07 AWST",
+    "location": "Cowaramup Bay, WA"
+  },
+  "stats": {
+    "swellHeight": "1.6 m",
+    "swellPeriod": "8.1 s",
+    "swellDirection": "SW",
+    "waveMax": "1.9 m",
+    "dawnWind": "3.7 m/s E",
+    "dawnWindOffshore": true,
+    "waterTemp": "19.8°C"
+  },
+  "sections": {
+    "surf": "Primary swell 1.6m at 8s from the southwest with a secondary swell of 1.4m at 15s from the same direction. Peak waves reach 1.9m. Dawn wind is light and offshore from the east, keeping conditions clean and glassy in the early morning. Afternoon wind shifts slightly but remains light and offshore, maintaining good surface conditions throughout the day.",
+    "weather": "Sunny day with light winds and morning fog possible. Temperatures range from 8°C overnight to a high of 20°C. Very low chance of rain at 10%.",
+    "wind": "Dawn wind 3.7 m/s from the east is offshore and clean; afternoon wind backs slightly to 3.1 m/s from the northeast, remaining offshore and light.",
+    "ocean": "Water temperature 19.8°C with a weak northward current of 0.2 m/s.",
+    "uv": "Moderate UV index of 3. Sunrise 07:08 AWST, sunset 17:26 AWST.",
+    "fire": "Moderate fire danger rating. No permit required for open burning; open burning period unrestricted."
+  },
+  "bins": {
+    "thisWeek": "Recyclables",
+    "nextWeek": "Landfill",
+    "thisWeekType": "yellow",
+    "nextWeekType": "red"
+  }
+}
+```
