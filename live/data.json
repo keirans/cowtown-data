@@ -1,7 +1,7 @@
 {
   "metadata": {
     "schema_version": "1.0.0",
-    "generated_at": "2026-05-18T20:03:53.656-04:00",
+    "generated_at": "2026-05-18T21:03:39.668-04:00",
     "location": {
       "name": "Cowaramup",
       "postcode": "6284",
@@ -14,7 +14,7 @@
       "type": "kv_metrics",
       "title": "Today's Weather",
       "status": "normal",
-      "summary": "Mostly sunny conditions with morning fog possible. Light winds. Daytime maximum of 20°C with overnight low of 8°C. Very low chance of rain.",
+      "summary": "Sunny conditions with morning fog possible. Light winds throughout the day. Maximum temperature 20°C, overnight minimum 10°C. Very low chance of rain.",
       "metrics": [
         {
           "label": "Max Temperature",
@@ -22,7 +22,7 @@
         },
         {
           "label": "Overnight Min",
-          "value": "8°C"
+          "value": "10°C"
         },
         {
           "label": "Rainfall Chance",
@@ -38,7 +38,7 @@
         },
         {
           "label": "UV Active Period",
-          "value": "03:00 - 05:30 UTC"
+          "value": "03:00–05:30 UTC"
         },
         {
           "label": "Sunrise",
@@ -56,7 +56,7 @@
       "type": "alert_status",
       "title": "Fire Danger & Safety",
       "status": "normal",
-      "summary": "Fire Danger Rating is Moderate. Open Burning Period is currently unrestricted—no permit required. Always take care and verify local conditions before ignition.",
+      "summary": "Fire danger rating is Moderate. Open burning is currently permitted without a permit requirement. Always exercise caution and verify local conditions before any outdoor fire activity.",
       "metrics": [
         {
           "label": "Fire Danger Rating",
@@ -64,11 +64,11 @@
         },
         {
           "label": "Firepits/Campfires",
-          "value": "Allowed (No Permit Required)"
+          "value": "Permitted"
         },
         {
           "label": "Solid Fuel BBQs",
-          "value": "Allowed (No Permit Required)"
+          "value": "Permitted"
         }
       ],
       "bullet_points": [
@@ -82,7 +82,7 @@
       "type": "alert_status",
       "title": "Bin Collection Schedule",
       "status": "normal",
-      "summary": "This week's collection is Recyclables (Yellow bin). Next week's collection will be Landfill (Red bin).",
+      "summary": "This week's collection is Recyclables (Yellow bin). Landfill (Red bin) collection is scheduled for next week.",
       "metrics": [
         {
           "label": "Weekly Collection",
@@ -90,7 +90,7 @@
         },
         {
           "label": "Fortnightly Collection",
-          "value": "Landfill (Red)"
+          "value": "Not applicable"
         },
         {
           "label": "Next Week's Bin",
